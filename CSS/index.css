@@ -1,0 +1,411 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    margin: 0;
+    margin-top: 5rem;
+}
+
+
+
+
+/*header*/
+header{
+    display: flex;
+    background-color: hsla(0, 0%, 100%, 0.98);
+    box-shadow: 0px 0px 4px rgb(146, 146, 146);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 16%;
+    height: 5rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #1BB82B;
+    min-width: 105px;
+}
+
+header ul{
+    padding: 0%;
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block; 
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 6rem;
+    padding: 0%;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+header ul li a:hover{
+    color: #1ED384;
+    transition: color 0.1s;
+}
+
+header h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    min-width: 105px;
+    padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+    background-color: #34CB44;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+header h2:hover{
+    background-color: rgb(30, 30, 30);
+    transition: background-color 0.1s;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+/*Header*/
+
+
+
+
+/*Hero section*/
+.heroflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 800px;
+    width: 550px;
+}
+
+.heroright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    width: 550px;
+}
+
+.herocta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-right: auto;
+    border-radius: 8px;
+    gap: 1rem;
+}
+
+.herocta1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    padding: 4px 0.4rem 4px 0.4rem;
+    background-color: #34CB44;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.herocta2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    padding: 4px 0.4rem 4px 0.4rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #34CB44;
+}
+
+/*Font sizes*/
+.heroleft h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    width: 28rem;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+#herohighlight{
+    color: #1ccc2d;
+}
+
+.heroleft h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    width: 26rem;
+    color: #4a4a4a;
+    margin: 1rem 0rem 2.5rem 0rem;
+}
+
+.heroleft p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.herocta1 p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.herocta2 p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #13aa22;
+}
+/*Hero section*/
+
+
+
+
+/*About section*/
+.aboutsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.aboutleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 800px;
+    width: 550px;
+}
+
+.aboutright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 800px;
+    width: 550px;
+}
+
+/*Font sizes*/
+.aboutright h1{
+    font-size: 2.8rem;
+    font-weight: 500;
+    width: 28rem;
+    color: #0a0a0a;
+    margin: 0;
+}
+
+.aboutright h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    width: 26rem;
+    color: #2a2a2a;
+    margin: 1rem 0rem 2.5rem 0rem;
+}
+
+.aboutright p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #C52626;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+/*About section*/
+
+
+
+
+/*Best selling section*/
+.favouritessection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.categoriescontainer{
+    display: flex;
+    gap:4rem;
+}
+
+.categorieschild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+}
+
+/*Font sizes*/
+.favouritessection h1{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: #0a0a0a;
+    margin: 0 0 2.5rem 0;
+}
+
+.favouritessection h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2a2a2a;
+    margin: 0;
+}
+
+.favouritessection p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #C52626;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.categorieschild p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #2a2a2a;
+    margin: 0.5rem 0 0.5rem 0;
+}
+/*Best selling section*/
+
+
+
+
+/*Special dishes section*/
+.specialsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.specialparent{
+    display: flex;
+    border: 1px solid green;
+    gap:2rem;
+}
+
+.specialchild{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    max-width: 18.5rem;
+    padding: 1rem;
+    border: 1px solid red;
+}
+
+.specialchildprices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.specialchildprices ul{
+    display: flex;
+    padding: 0;
+}
+
+.specialchildprices ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/*Special dishes section*/
+
+
+
+
+/*Testimonials section*/
+.testimonialsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonialleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 800px;
+    width: 550px;
+}
+
+.testimonialright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 800px;
+    width: 550px;
+}
+
+/*Font sizes*/
+.testimonialright h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    width: 28rem;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.testimonialright h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    width: 26rem;
+    color: #4a4a4a;
+    margin: 1rem 0rem 0.5rem 0rem;
+}
+
+.testimonialright h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    width: 26rem;
+    color: #0a0a0a;
+    margin: 0;
+}
+
+.testimonialright h4{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    width: 26rem;
+    color: #4169E1;
+    text-decoration: underline;
+    margin: 1rem 0 ;
+}
+
+.testimonialright p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #C52626;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+/*Testimonials section*/
